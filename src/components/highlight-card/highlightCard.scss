@@ -1,0 +1,11 @@
+@import '../../assets/styles/variables.scss';
+
+.highlight-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $darkBlue2;
+  color: $fontPrimary;
+  padding: 22px 0;
+}

@@ -1,0 +1,91 @@
+@import '../../assets/styles/variables.scss';
+
+.left-panel {
+  background-color: $darkBlue2;
+  height: 100%;
+  width: 450px;
+
+  .top-block {
+    height: 40%;
+    padding: 42px 46px 0 46px;
+    
+    .top-buttons {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  
+      .open-search-form {
+        background-color: #6E707A;
+        color: $fontPrimary;
+        padding: 0 18px;
+        border: none;
+        height: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+  
+      .my-location {
+        background-color:rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .get-location-icon {
+          color: $fontPrimary;
+        }
+      }
+    }
+  
+    .weather-image-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: calc(100% - 40px)
+    }
+  }
+
+  .bottom-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+
+    .temperature {
+      font-size: 144px;
+      color: $fontPrimary;
+  
+      .temp-unit {
+        font-size: 48px;
+        color: $fontSecondary;
+      }
+    }
+    
+    .weather-text {
+      font-size: 36px;
+      color: $fontSecondary;
+      margin: 87px 0;
+    }
+
+    .date {
+      margin-bottom: 32px;
+      span {
+        color: $fontSecondary;
+      }
+
+      .dot {
+        margin: 0 16px;
+      }
+    }
+
+    .location {
+      display: flex;
+      align-items: center;
+      color: $fontSecondary;
+    }
+  }
+}

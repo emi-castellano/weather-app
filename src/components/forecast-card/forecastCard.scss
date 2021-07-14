@@ -1,0 +1,38 @@
+@import "../../assets/styles/variables.scss";
+
+.forecast-card {
+  background-color: $darkBlue2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 18px 22px;
+  margin-right: 26px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+  
+  .day {
+    color: $fontPrimary;
+    font-size: 16px;
+  }
+
+  .weather-img { 
+    width: 56px;
+    height: 62px;
+    margin: 10px 0 32px 0;
+  }
+
+  .temperature {
+    display: flex;
+    justify-content: space-between;
+
+    .max {
+      color: $fontPrimary;
+    }
+
+    .min {
+      color: $fontSecondary;
+    }
+  }
+}
