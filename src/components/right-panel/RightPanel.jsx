@@ -77,10 +77,10 @@ const RightPanel = _ => {
           </HighlightCard>
         </div>
       </div>
-      <div className="footer-text">
-        <span>created by <b>emi-castellano</b> - devChallenges.io</span>
-      </div>
     </div>
+    <div className="footer-text">
+        <span>created by <a href="https://github.com/emi-castellano" target="blank">emi-castellano</a> - devChallenges.io</span>
+      </div>
   </div>
 }
 
