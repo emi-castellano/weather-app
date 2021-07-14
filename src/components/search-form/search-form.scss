@@ -1,0 +1,13 @@
+.search-form {
+  background-color: red;
+  height: 100%;
+  width: 450px;
+  position: absolute;
+  left: -450px;
+  top: 0;
+  transition: left .3s ease-out;
+
+  &.visible {
+    left: 0;
+  }
+}

@@ -4,6 +4,7 @@
   background-color: $darkBlue2;
   height: 100%;
   width: 450px;
+  position: relative;
 
   .top-block {
     height: 40%;
@@ -53,7 +54,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60%;
 
     .temperature {
       font-size: 144px;
